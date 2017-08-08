@@ -1,6 +1,6 @@
 git "clone dotfiles" do
   user "#{node[:user]}"
-  destination "/home/#{node[:user]}/dotfiles"
+  destination "/Users/#{node[:user]}/dotfiles"
   repository "https://github.com/taroooyan/dotfiles.git"
   not_if "test -d /Users/#{node[:user]}/dotfiles"
 end
