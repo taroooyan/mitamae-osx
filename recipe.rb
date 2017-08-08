@@ -1,4 +1,5 @@
 # package
+include_recipe './cookbooks/brew/default.rb'
 include_recipe './cookbooks/vim/default.rb'
 include_recipe './cookbooks/zsh/default.rb'
 include_recipe './cookbooks/git/default.rb'
